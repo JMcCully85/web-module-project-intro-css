@@ -90,8 +90,8 @@ nav a {
     border-radius: 10px;
     text-align: center;
     color: #fff;
-
 }
+
 .orange {
     background-color: #FF764E;
     margin-left: 10%;
@@ -113,11 +113,12 @@ nav a {
 
 .left img {
     border-radius: 50%;
-    width: 70%;
+    width: 55%;
 }
 
 .left, .right {
     display: inline-block;
+    text-align: center;
 }
 
 .left {
@@ -125,32 +126,67 @@ nav a {
 }
 
 .right {
-    width: 40%;
+    width: 45%;
     margin-left: 3%;
     position: absolute;
-    top: 40%;
-    text-align: center;
+    bottom: 10%;  
+}
+
+.right h1 {
+    font-size: 8rem;
+}
+
+.right h2 {
+    font-size: 3rem;
+}
+
+.right p {
+    font-size: 3rem;
+}
+
+.right h1, h2, p {
+    margin: 3%;
 }
 
 .main {
     background-color: #DDB9A3;
+    width: 90%;
+    margin: 2% 5%;
+    font-size: 3rem;
 }
 
 #main2 {
     display: inline-block;
-
+    
+    width: 80%;
+    margin: 2% 5%;
+    text-align: center;
 }
 
-.main1 .main2 {
-    display: inline-block;
+.main1 img, .main2 img {
+    width: 10%;
+    
+}
+
+.main1 p, .main2 p {
+    width: 25%;
+    margin-left: 36%;
 }
 
 .banner {
     background-image: url('assets/footer_img.jpg');
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
 }
 
 footer {
     background-color:#F9E7DC;
+    height: 25vh;
+    padding-top: 3.5%;
+}
+
+.footer nav {
+    margin: 0% 5%;
 }
